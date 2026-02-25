@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aung Zay Myo | Portfolio</title>
+  <meta name="description" content="Portfolio website for Aung Zay Myo." />
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">A</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#certs">Certifications</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeBtn" class="btn ghost" type="button" aria-label="Toggle theme">
+          <span class="icon" aria-hidden="true">◐</span>
+        </button>
+        <a id="resumeBtn" class="btn" href="#" target="_blank" rel="noreferrer">Resume</a>
+      </div>
+
+      <button id="menuBtn" class="menu-btn" type="button" aria-label="Open menu">☰</button>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu" hidden>
+      <div class="container mobile-menu-inner">
+        <a href="#about">About</a>
+        <a href="#certs">Certifications</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <div class="mobile-actions">
+          <button id="themeBtnMobile" class="btn ghost" type="button">Toggle theme</button>
+          <a id="resumeBtnMobile" class="btn" href="#" target="_blank" rel="noreferrer">Resume</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="kicker" id="heroKicker">Information Security Engineer</p>
+          <h1 class="hero-title">
+            Securing systems, hardening infrastructure, and improving resilience.
+          </h1>
+          <p class="hero-subtitle" id="heroSubtitle">
+            Based in Yangon, Myanmar. Focused on security operations, incident response, and practical hardening.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn hero-btn" href="#projects">Let's get started</a>
+            <a class="btn ghost" id="linkedinBtn" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-portrait">
+            <img src="gallery/me.jpg" alt="Portrait of Aung Zay Myo" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2>About</h2>
+        <div class="grid-2">
+          <div class="panel" id="aboutPanel">
+          </div>
+
+          <div class="panel">
+            <h3 class="panel-title">Core strengths</h3>
+            <ul class="list" id="strengths"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head">
+          <h2>Education</h2>
+        </div>
+        <div class="edu-list" id="educationList"></div>
+      </div>
+    </section>
+
+    <section class="section" id="certs">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="cert-list" id="certCards"></div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="exp-list" id="experienceTimeline"></div>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="container">
+        <h2>Tools & Experience</h2>
+        <p class="muted">Hands-on work across monitoring, hardening, and incident response.</p>
+        <div class="grid-2 tools-grid">
+          <div class="panel">
+            <h3 class="panel-title">Running tools</h3>
+            <div class="badges tools-badges">
+              <span class="badge">Splunk</span>
+              <span class="badge">Microsoft Defender for Endpoint</span>
+              <span class="badge">DeepSecurity</span>
+              <span class="badge">ApexOne</span>
+              <span class="badge">Palo Alto Cortex XDR</span>
+              <span class="badge">Sophos Endpoint</span>
+              <span class="badge">Trend Vision One</span>
+              <span class="badge">Fortigate</span>
+              <span class="badge">V2S WAF</span>
+              <span class="badge">V2S PAM</span>
+              <span class="badge">Viettel</span>
+              <span class="badge">Kaspersky</span>
+              <span class="badge">Zimbra</span>
+              <span class="badge">A10 Thunder Series</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="logo-marquee" aria-label="Tooling logos">
+          <div class="logo-track">
+            <div class="logo-row">
+              <img class="logo-item" src="gallery/trend.png" alt="Tool logo placeholder" loading="lazy" />
+              <img class="logo-item" src="gallery/cyberark.png" alt="Tool logo placeholder" loading="lazy" />
+              <img class="logo-item" src="gallery/fortinet.png" alt="Tool logo placeholder" loading="lazy" />
+              <img class="logo-item" src="gallery/kas.png" alt="Tool logo placeholder" loading="lazy" />
+              <img class="logo-item" src="gallery/microsoft.png" alt="Tool logo placeholder" loading="lazy" />
+              <img class="logo-item" src="gallery/v2s.jpg" alt="Tool logo placeholder" loading="lazy" />
+            </div>
+            <div class="logo-row" aria-hidden="true">
+              <img class="logo-item" src="gallery/splunk.png" alt="" loading="lazy" />
+              <img class="logo-item" src="gallery/edr.jpg" alt="" loading="lazy" />
+              <img class="logo-item" src="gallery/sonar.png" alt="" loading="lazy" />
+              <img class="logo-item" src="gallery/gitlab.png" alt="" loading="lazy" />
+              <img class="logo-item" src="gallery/openstack.png" alt="" loading="lazy" />
+              <img class="logo-item" src="gallery/v2s.jpg" alt="" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="muted">
+          Add your real projects (GitHub links, write-ups, demos). Keep them results-driven.
+        </p>
+        <div class="cards" id="projectCards"></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-section">
+          <h2>Contact</h2>
+          <p class="contact-lead">
+            I'm currently looking to join a cross-functional team that values improving people's
+            lives through accessible design, or have a project in mind? Let's connect.
+          </p>
+          <a class="contact-email" id="contactEmail" href="mailto:you@example.com">you@example.com</a>
+          <div class="contact-icons" id="contactLinks" aria-label="Contact links"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="muted">© <span id="year"></span> <span id="footerName">Aung Zay Myo</span></span>
+      <span class="muted">Built for GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
