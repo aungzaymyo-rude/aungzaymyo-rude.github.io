@@ -25,9 +25,8 @@ const profile = {
       title: "Science and Technology Track - Cloud, Machine Learning, & Security Academy",
       issuer: "US-ASEAN Center",
       issued: "Dec 2025",
-      credentialId: "RB2I82T-QVOfCNvE_pFT4A",
-      credentialUrl: "#",
-      skills: ["Security fundamentals", "Risk management", "Governance basics"],
+      credentialId: "bR8I28T-QVOfCNvE_pFT4A",
+      credentialUrl: "https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fwww.coursera.org%2Faccount%2Faccomplishments%2Fbadge%2FbR8I28T-QVOfCNvE_pFT4A%3Futm_medium%3Demail%26utm_source%3Dother%26utm_campaign%3Dnotifications.auto.769d4fa8-dbc0-11f0-ad6b-12b2be5e9abb&urlhash=UNoI&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BFWJrhTlvRQeo%2BW3NSMdC2g%3D%3D",
       logo: "gallery/us-asean.png",
       image: "gallery/stt.png",
       fileLabel: "US-ASEAN-STT"
@@ -35,10 +34,10 @@ const profile = {
     {
       title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services",
-      issued: "Dec 2025",
-      credentialId: "RB2I82T-QVOfCNvE_pFT4A",
-      credentialUrl: "#",
-      skills: ["Security fundamentals", "Risk management", "Governance basics"],
+      issued: "Aug 2025 - Aug 2028",
+      credentialId: "09a833d6-1dd4-4e10-859a-384889c0c4c4",
+      credentialUrl: "https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fwww.credly.com%2Fbadges%2F09a833d6-1dd4-4e10-859a-384889c0c4c4%2Fpublic_url&urlhash=i_wP&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BFWJrhTlvRQeo%2BW3NSMdC2g%3D%3D",
+      skills: ["Security and Compliance", "Cloud Concepts", "Core AWS Services"],
       logo: "gallery/aws.png",
       image: "gallery/ccp.png",
       fileLabel: "AWS-CCP"
@@ -47,9 +46,9 @@ const profile = {
       title: "ISC2 Certified in CyberSecurity",
       issuer: "ISC2",
       issued: "Dec 2025",
-      credentialId: "RB2I82T-QVOfCNvE_pFT4A",
-      credentialUrl: "#",
-      skills: ["Security fundamentals", "Risk management", "Governance basics"],
+      credentialId: "2349390",
+      credentialUrl: "https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fwww.credly.com%2Fbadges%2Fda62016c-0c6f-41ef-98c2-af74dce31cbe&urlhash=00wD&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BFWJrhTlvRQeo%2BW3NSMdC2g%3D%3D",
+      skills: ["Access Control", "Code of Ethics", "Governance", "Security Operations"],
       logo: "gallery/isc2.png",
       image: "gallery/cc.png",
       fileLabel: "ISC2-CC"
@@ -57,11 +56,10 @@ const profile = {
     {
       title: "Security Operations Analyst Associate",
       issuer: "Microsoft",
-      issued: "Aug 2025",
-      expires: "Aug 2028",
-      credentialId: "09a833d6-1dd4-4e10-859a-384889c0c4c4",
-      credentialUrl: "#",
-      skills: ["Security operations", "Threat hunting", "Incident response"],
+      issued: "Feb 2025",
+      credentialId: "A60300F479AF6052",
+      credentialUrl: "https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fcredentials%2Fshare%2Fen-us%2FAungZayMyo-3356%2FA60300F479AF6052%3FsharingId%3D296EE2BB39FB2CB2&urlhash=dSQC&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BFWJrhTlvRQeo%2BW3NSMdC2g%3D%3D",
+      skills: ["KQL", "MDE", "EDR", "AIR", "Sentinel"],
       logo: "gallery/microsoft.png",
       image: "gallery/sc-200.png",
       fileLabel: "SC-200"
@@ -69,11 +67,10 @@ const profile = {
     {
       title: "Information Security Administrator Associate",
       issuer: "Microsoft",
-      issued: "Aug 2025",
-      expires: "Aug 2028",
-      credentialId: "09a833d6-1dd4-4e10-859a-384889c0c4c4",
-      credentialUrl: "#",
-      skills: ["Security operations", "Threat hunting", "Incident response"],
+      issued: "Jun 2025",
+      credentialId: "5C733DBF1EFA0A6F",
+      credentialUrl: "https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fcredentials%2Fshare%2Fen-us%2FAungZayMyo-3356%2F5C733DBF1EFA0A6F%3FsharingId%3D296EE2BB39FB2CB2&urlhash=Y4w1&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BFWJrhTlvRQeo%2BW3NSMdC2g%3D%3D",
+      skills: ["DLP", "Purview", "Data Security"],
       logo: "gallery/microsoft.png",
       image: "gallery/sc-401.png",
       fileLabel: "SC-401"
@@ -81,10 +78,8 @@ const profile = {
     {
       title: "Trend Micro Vision One XDR advanced Certification ",
       issuer: "TrendAI",
-      issued: "May 2024",
-      credentialId: "NSE3-0000-0000",
-      credentialUrl: "#",
-      skills: ["Network security", "Firewalls", "Security controls"],
+      issued: "Aug 2024",
+      skills: ["XDR", "EDR", "EPP", "APIs"],
       logo: "gallery/trendai.png",
       image: "gallery/v1.png",
       fileLabel: "TrendAI-V1"
@@ -92,10 +87,10 @@ const profile = {
     {
       title: "Network Security Expert Level 3: Certified Associate",
       issuer: "Fortinet",
-      issued: "May 2024",
-      credentialId: "NSE3-0000-0000",
-      credentialUrl: "#",
-      skills: ["Network security", "Firewalls", "Security controls"],
+      issued: "Feb 2025",
+      credentialId: "5463475904AM",
+      credentialUrl: "https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fwww.credly.com%2Fbadges%2F140d7188-5355-4b02-88e7-a89e8c3f3c2c&urlhash=vL0D&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BwUH6JaqtSbCGiwCIleVP5w%3D%3D",
+      skills: ["IPS", "SSL Inspection", "Next-Gen Antivirus", "Web Filtering"],
       logo: "gallery/fortinet.png",
       image: "gallery/fca.png",
       fileLabel: "NSE3"
@@ -103,10 +98,8 @@ const profile = {
     {
       title: "Foundation Level Threat Intelligence Analyst",
       issuer: "Arcx",
-      issued: "May 2024",
-      credentialId: "NSE3-0000-0000",
-      credentialUrl: "#",
-      skills: ["Network security", "Firewalls", "Security controls"],
+      issued: "Feb 2023",
+      credentialUrl: "https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Farcx.io%2Fverify-certificate%3Fid%3Dd4ed11cbb910e99f60ffb6d58ede542c3da1a077%26k%3Dc630f0e1357043c5bb4e9d7f451f8d80&urlhash=S7xB&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BwUH6JaqtSbCGiwCIleVP5w%3D%3D",
       logo: "gallery/arcx.png",
       image: "gallery/ftia.png",
       fileLabel: "FTIA"
