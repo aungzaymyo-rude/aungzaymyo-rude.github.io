@@ -194,6 +194,11 @@ const profile = {
       filePreview: "gallery/soc.png"
     }
   ],
+  contacts: [
+    { label: "LinkedIn", value: "aung-zay-myo", url: "https://www.linkedin.com/in/aung-zay-myo/" },
+    { label: "GitHub", value: "your-username", url: "https://github.com/aungzaymyo-rude/" },
+    { label: "Email", value: "aungzaymyo.cs@gmail.com", url: "mailto:aungzaymyo.cs@gmail.com" }
+  ]
 };
 
 // --------- Render helpers ----------
