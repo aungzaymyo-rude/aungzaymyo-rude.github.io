@@ -194,37 +194,6 @@ const profile = {
       filePreview: "gallery/soc.png"
     }
   ],
-  projects: [
-    {
-      title: "Phishing Simulation Reporting Template",
-      description: "A concise report format for management: objectives, scope, results, and next actions.",
-      links: [
-        { label: "GitHub", url: "#" }
-      ],
-      tags: ["Awareness", "Reporting", "Security Ops"]
-    },
-    {
-      title: "DNS / Domain Investigation Scripts",
-      description: "Scripts to resolve domains, export results to CSV, and extract domains from email fields.",
-      links: [
-        { label: "GitHub", url: "#" }
-      ],
-      tags: ["PowerShell", "Automation", "IR"]
-    },
-    {
-      title: "Hardening Quick Checks",
-      description: "Checklist-style scripts to reduce incident impact on endpoints.",
-      links: [
-        { label: "GitHub", url: "#" }
-      ],
-      tags: ["Windows", "Baseline", "Defense"]
-    }
-  ],
-  contacts: [
-    { label: "LinkedIn", value: "aung-zay-myo", url: "https://www.linkedin.com/in/aung-zay-myo/" },
-    { label: "GitHub", value: "your-username", url: "https://github.com/aungzaymyo-rude/" },
-    { label: "Email", value: "aungzaymyo.cs@gmail.com", url: "mailto:aungzaymyo.cs@gmail.com" }
-  ]
 };
 
 // --------- Render helpers ----------
